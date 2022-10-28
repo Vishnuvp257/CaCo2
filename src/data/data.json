@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "title": "Solving Problems For Every NEET Student In TamilNadu.",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Top Instructors With Good NEET Background",
+      "Content Rich Pre-Recorded Videos",
+      "Bilingual -Tamil + English Recorded Videos",
+      "Easy To Use Interface - Designed App"
+    ],
+    "Why2": [
+      "Live Classes From NEET Qualified Students",
+      "Free Doubt Solving Portal For All Paid And Unpaid Students",
+      "Free Daily MCQs Practice In Every Subject",
+      "Free Notes And PPTs Of Recorded Classes"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-book",
+      "name": "Lorem ipsum dolor",
+      "text": "We Are On The Mission To Educate 25000 NEET Students In And Across TamilNadu."
+    },
+
+    {
+      "icon": "fa fa-eye",
+      "name": "Consectetur adipiscing",
+      "text": "Our Vision Is To Make NEET Students Dreams Come True And We Completely Believe War Against Diseases Is The Greatest War Today. Only Good Doctors Can Produce A Healthy Nation."
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}
