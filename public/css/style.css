@@ -214,6 +214,9 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
+  animation: fadeinLoad 1s 1s forwards;
+  opacity: 0;
 }
 /* .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -250,6 +253,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  padding-bottom: 1rem;
 }
 
 #about .row {
@@ -287,6 +291,14 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
+
+#about .about-features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  text-transform: capitalize;
+}
+
 #about img {
   width: 520px;
   margin-top: 10px;
@@ -346,12 +358,13 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
+  /* animation: fadeinLoad 1s 5s forwards;
+  opacity: 0; */
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -490,13 +503,45 @@ label {
 }
 
 @media (max-width: 768px) {
+  .intro {
+    background: none;
+    background-size: cover;
+  }
   #about img {
     margin: 50px 0;
   }
   #about .row {
     flex-direction: column;
   }
+
+  #about .about-features {
+    flex-direction: column;
+  }
+
+  #about .about-unlocking {
+    margin-top: 1rem;
+  }
   #services .section-row {
     flex-direction: column;
+  }
+
+  #pricing .row {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pricing .card {
+    display: contents !important;
+  }
+}
+
+@keyframes fadeinLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

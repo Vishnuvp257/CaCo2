@@ -1,21 +1,30 @@
 {
   "Header": {
-    "title": "Solving Problems For Every NEET Student In TamilNadu.",
+    "title": "TAKE THE NEXT STEP TOWARDS YOUR DREAM CAREERS",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "head": "Thanks for coming this far to know us",
+    "paragraph": "We are the group of Five (babu, madhu, jagan, inderajith, aswanth) without them this app is the long dream. We always believed no matter what there should be access to quality content and to access those content it should be affordable as well. To aid this dream our teachers (subratha ,nandhini ,tamil selvan) came forward for this cause and helped usthroughtout our journey in making this CaCO2 app what you see right now. Our biggest happiness happens only when we make our students get their dreams achieved.",
+    "foot": "our dream is to make your dreams get achieved",
     "Why": [
       "Top Instructors With Good NEET Background",
       "Content Rich Pre-Recorded Videos",
       "Bilingual -Tamil + English Recorded Videos",
-      "Easy To Use Interface - Designed App"
+      "Easy To Use Interface - Designed App",
+      "Conceptual clarity-get concepts clarified from scratch",
+      "Learn anytime ,anywhere on your comfort structured syllabus for NEET"
     ],
     "Why2": [
-      "Live Classes From NEET Qualified Students",
+      "Daily Live Classes From NEET Qualified Students",
       "Free Doubt Solving Portal For All Paid And Unpaid Students",
+      "Doubt clearning sessions from mentors",
       "Free Daily MCQs Practice In Every Subject",
-      "Free Notes And PPTs Of Recorded Classes"
+      "Free Notes And PPTs Of Recorded Classes",
+      "performance tracker",
+      "monthly orientation classes - get motivated",
+      "feedback portal- To improve the learning process",
+      "Get real time Exam experiance from previous year question paper"
     ]
   },
   "Services": [

@@ -2,19 +2,23 @@ export const About = (props) => {
   return (
     <div id="about">
       <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
+        {/* <div className="row"> */}
+        {/* <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.png" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <div>
+            <img src="img" className="img-responsive" alt="" />{" "}
+          </div> */}
+        <div className="col-xs-12 col-md-11">
+          <div className="about-text">
+            <h2>About Us</h2>
+            <h4>{props.data ? props.data.head : "loading..."}</h4>
+            <p>{props.data ? props.data.paragraph : "loading..."}</p>
+            <h5>{props.data ? props.data.foot : "loading..."}</h5>
+
+            <div className="about-features">
+              <div className="about-chooseus">
                 <h3>Why Choose Us?</h3>
 
-                <div className="col-lg-8 col-sm-6 col-xs-12">
+                <div>
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
@@ -24,10 +28,10 @@ export const About = (props) => {
                   </ul>
                 </div>
               </div>
-              <div>
+              <div className="about-unlocking">
                 <h3>Unlocking Soon</h3>
 
-                <div className="col-lg-4 col-sm-6 col-xs-12">
+                <div>
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
@@ -40,6 +44,7 @@ export const About = (props) => {
             </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
     </div>
   );
