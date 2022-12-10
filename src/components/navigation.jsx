@@ -17,9 +17,9 @@ export const Navigation = (props) => {
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             <img
-              src="img/caco2final.png"
+              src="img/caco2final-1.jpg"
               style={{
-                width: "3rem",
+                width: "3.5rem",
                 display: "inline-block",
                 marginRight: "1rem",
               }}

@@ -5,7 +5,7 @@
   },
   "About": {
     "head": "Thanks for coming this far to know us",
-    "paragraph": "We are the group of Five (babu, madhu, jagan, inderajith, aswanth) without them this app is the long dream. We always believed no matter what there should be access to quality content and to access those content it should be affordable as well. To aid this dream our teachers (subratha ,nandhini ,tamil selvan) came forward for this cause and helped usthroughtout our journey in making this CaCO2 app what you see right now. Our biggest happiness happens only when we make our students get their dreams achieved.",
+    "paragraph": "We are a team of five people without them this app is a long dream. We always believed that there should be access to quality educational content and access to that content should be affordable as well. To aid this dream our teachers (Subratha, Nandhini, Tamil Selvan) came forward for this cause and helped us throughout our journey in making this CaCO2 app what you see right now. Our biggest happiness happens only when we make our students get their dreams achieved.",
     "foot": "our dream is to make your dreams get achieved",
     "Why": [
       "Top Instructors With Good NEET Background",
@@ -29,21 +29,50 @@
   },
   "Services": [
     {
-      "icon": "fa fa-book",
       "name": "Lorem ipsum dolor",
+      "image": "Thumbnail-1.png",
       "text": "We Are On The Mission To Educate 25000 NEET Students In And Across TamilNadu."
     },
 
     {
-      "icon": "fa fa-eye",
-      "name": "Consectetur adipiscing",
+      "name": "Lorem ipsum dolor",
+      "image": "Thumbnail-2.png",
       "text": "Our Vision Is To Make NEET Students Dreams Come True And We Completely Believe War Against Diseases Is The Greatest War Today. Only Good Doctors Can Produce A Healthy Nation."
     }
   ],
+  "Pricing": [
+    {
+      "type": "free",
+      "bg": 1,
+      "mostPopular": false,
+      "title": "Class 11 NEET Complete syllabus",
+      "description": "with tamil explanation",
+      "price": "999",
+      "data": ["Physics", "Chemistry", "Biology"]
+    },
+    {
+      "type": "basic",
+      "bg": 2,
+      "mostPopular": false,
+      "title": "Class 12 NEET Complete syllabus",
+      "description": "with tamil explanation",
+      "price": "999",
+      "data": ["Physics", "Chemistry", "Biology"]
+    },
+    {
+      "type": "pro",
+      "bg": 3,
+      "mostPopular": true,
+      "title": "Class 11 + Class 12 NEET Complete syllabus – combo",
+      "description": "",
+      "price": "999",
+      "data": ["Physics", "Chemistry", "Biology"]
+    }
+  ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "",
+    "phone": "+91 9894369147",
+    "email": " officialcaco2@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

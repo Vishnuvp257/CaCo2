@@ -5,20 +5,19 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            We Are On The Mission To Educate 25000 NEET Students In And Across
+            TamilNadu.
           </p>
         </div>
         <div className="row section-row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-8">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
-                  </div>
+                  <img
+                    className="service-img"
+                    src={`./../../img/${d.image}`}
+                    alt={`${d.image}`}
+                  />
                 </div>
               ))
             : "loading"}

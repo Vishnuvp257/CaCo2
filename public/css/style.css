@@ -324,6 +324,11 @@ header .intro-text {
 #services .service-desc {
   margin: 10px 10px 20px;
 }
+
+#services .service-img {
+  width: 100%;
+}
+
 #services h2 {
   color: #fff;
 }
@@ -358,6 +363,118 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+/*pricing section*/
+.pricing-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px #ddd;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  position: relative;
+  width: 27%;
+  text-align: center;
+}
+
+.most-popular {
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 0.25em 1rem;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+.free {
+  border-top: 6px solid #1abc9c;
+}
+
+.basic {
+  border-top: 6px solid #3498db;
+}
+
+.pro {
+  border-top: 6px solid #f1c40f;
+}
+
+.card-description,
+.card-billing,
+.card-features,
+.card-action {
+  padding: 15px;
+}
+
+.card-description h2 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.card-billing {
+  background-color: #f1c40f69;
+  color: black;
+}
+
+.card-billing-1 {
+  background-color: #9ae7b194;
+  color: black;
+}
+
+.card-billing-2 {
+  background-color: #3695d485;
+  color: black;
+}
+
+.card-billing p {
+  margin-bottom: 0.5rem;
+}
+
+.card-billing .price {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card-features {
+  min-height: 100px;
+}
+
+.card-features ul li {
+  margin-bottom: 0.5rem;
+}
+
+.card-features ul li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
+.card-action > button {
+  border: 3px solid #3498db;
+  background-color: transparent;
+  color: #3498db;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  width: 100%;
+  transition: 0.3s ease all;
+}
+
+.card-action > button:hover {
+  transition: 0.3s ease all;
+  background-color: #3498db;
+  color: #fff;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -521,10 +638,23 @@ label {
   #about .about-unlocking {
     margin-top: 1rem;
   }
-  #services .section-row {
-    flex-direction: column;
+
+  #services {
+    padding: 0;
+    padding-top: 2rem;
   }
 
+  #services .section-title {
+    margin-bottom: 0;
+  }
+
+  #services .section-row {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  #pricing {
+    padding: 20px !important;
+  }
   #pricing .row {
     display: flex;
     gap: 20px;
@@ -532,8 +662,13 @@ label {
     align-items: center;
   }
 
+  .pricing-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   #pricing .card {
-    display: contents !important;
+    width: auto;
   }
 }
 
