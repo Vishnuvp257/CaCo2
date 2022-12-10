@@ -157,11 +157,11 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy;&nbsp;{" "}
-            <a href="https://github.com/Vishnuvp257" target="blank">
-              Vishnu Prakash B
-            </a>
+            &copy;&nbsp; <span>CaCo2</span>
           </p>
+          <a href="https://github.com/Vishnuvp257" target="blank">
+            Developer contact
+          </a>
         </div>
       </div>
     </div>

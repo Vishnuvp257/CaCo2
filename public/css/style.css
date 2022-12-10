@@ -5,9 +5,8 @@ html {
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
-  width: fit-content;
-  zoom: normal;
-  overflow: hidden;
+  height: 100% !important;
+  width: 100% !important;
 }
 h2,
 h3,
@@ -244,8 +243,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 270px;
-  padding-bottom: 160px;
+  padding-top: 350px;
+  padding-bottom: 200px;
   text-align: left;
   margin-left: 1rem;
   text-align: center;
@@ -621,10 +620,20 @@ label {
 }
 
 @media (max-width: 768px) {
+  header .intro-text {
+    padding-top: 270px;
+    padding-bottom: 160px;
+    text-align: center;
+  }
   .intro {
     background: none;
     background-size: cover;
   }
+
+  .intro h1 {
+    font-size: 3.2rem;
+  }
+
   #about img {
     margin: 50px 0;
   }
