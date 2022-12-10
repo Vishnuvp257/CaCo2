@@ -5,8 +5,9 @@ html {
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
-  width: 100% !important;
-  height: 100% !important;
+  width: fit-content;
+  zoom: normal;
+  overflow: hidden;
 }
 h2,
 h3,
