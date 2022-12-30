@@ -126,16 +126,16 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a
-                      href={props.data ? props.data.facebook : "/"}
-                      onClick={(e) => e.preventDefault()}
+                      target="blank"
+                      href={props.data ? props.data.linkedin : "/"}
                     >
-                      <i className="fa fa-facebook"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
                     <a
+                      target="blank"
                       href={props.data ? props.data.twitter : "/"}
-                      onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-twitter"></i>
                     </a>
