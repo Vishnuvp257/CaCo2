@@ -13,8 +13,9 @@ export const Header = (props) => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://play.google.com/store/apps/details?id=com.unacademyapp"
+                  href="/"
                   className="btn btn-custom btn-lg page-scroll"
+                  onClick={(e) => e.preventDefault()}
                 >
                   <img
                     src="img/playstore.png"
