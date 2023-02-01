@@ -1,7 +1,7 @@
 import React from 'react';
 import './privacy.css';
 
-function ReturnPolicy(props) {
+function RefundPolicy(props) {
 	return (
 		<div class='page'>
 			<div class='header'>
@@ -94,4 +94,4 @@ function ReturnPolicy(props) {
 	);
 }
 
-export default ReturnPolicy;
+export default RefundPolicy;

@@ -172,9 +172,9 @@ export const Contact = (props) => {
 							Terms & Conditions
 						</a>
 						<a
-							href='return-policy'
+							href='/refund-policy'
 							target='blank'>
-							Return Policy
+							Refund Policy
 						</a>
 					</div>
 				</div>

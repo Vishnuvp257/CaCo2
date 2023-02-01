@@ -9,7 +9,7 @@ import { Services } from './components/services';
 import { Contact } from './components/contact';
 import Privacy from './components/privacy';
 import TermsCondition from './components/termsCondition';
-import ReturnPolicy from './components/returnPolicy';
+import RefundPolicy from './components/refundPolicy';
 
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
@@ -52,8 +52,8 @@ const App = () => {
 					element={<TermsCondition />}
 				/>
 				<Route
-					path='/return-policy'
-					element={<ReturnPolicy />}
+					path='/refund-policy'
+					element={<RefundPolicy />}
 				/>
 
 				<Route
