@@ -160,23 +160,23 @@ export const Contact = (props) => {
 					<p>
 						&copy;&nbsp; <span>CaCo2</span>
 					</p>
-					<a
-						style={{ marginRight: '5rem' }}
-						href='https://github.com/Vishnuvp257'
-						target='blank'>
-						Developer contact
-					</a>
-					<a
-						style={{ marginRight: '5rem' }}
-						href='/terms&conditions'
-						target='blank'>
-						Terms & Conditions
-					</a>
-					<a
-						href='return-policy'
-						target='blank'>
-						Return Policy
-					</a>
+					<div className='link-container'>
+						<a
+							href='https://github.com/Vishnuvp257'
+							target='blank'>
+							Developer contact
+						</a>
+						<a
+							href='/terms&conditions'
+							target='blank'>
+							Terms & Conditions
+						</a>
+						<a
+							href='return-policy'
+							target='blank'>
+							Return Policy
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
