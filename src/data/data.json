@@ -1,80 +1,80 @@
 {
-  "Header": {
-    "title": "TAKE THE NEXT STEP TOWARDS YOUR DREAM CAREERS",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-  },
-  "About": {
-    "head": "Thanks for coming this far to know us",
-    "paragraph": "We are a team of five people without them this app is a long dream. We always believed that there should be access to quality educational content and access to that content should be affordable as well. To aid this dream our teachers (Subratha, Nandhini, Tamil Selvan) came forward for this cause and helped us throughout our journey in making this CaCO2 app what you see right now. Our biggest happiness happens only when we make our students get their dreams achieved.",
-    "foot": "our dream is to make your dreams get achieved",
-    "Why": [
-      "Top Instructors With Good NEET Background",
-      "Content Rich Pre-Recorded Videos",
-      "Bilingual -Tamil + English Recorded Videos",
-      "Easy To Use Interface - Designed App",
-      "Conceptual clarity-get concepts clarified from scratch",
-      "Learn anytime ,anywhere on your comfort structured syllabus for NEET"
-    ],
-    "Why2": [
-      "Daily Live Classes From NEET Qualified Students",
-      "Free Doubt Solving Portal For All Paid And Unpaid Students",
-      "Doubt clearning sessions from mentors",
-      "Free Daily MCQs Practice In Every Subject",
-      "Free Notes And PPTs Of Recorded Classes",
-      "performance tracker",
-      "monthly orientation classes - get motivated",
-      "feedback portal- To improve the learning process",
-      "Get real time Exam experiance from previous year question paper"
-    ]
-  },
-  "Services": [
-    {
-      "name": "Lorem ipsum dolor",
-      "image": "Thumbnail-1.png",
-      "text": "We Are On The Mission To Educate 25000 NEET Students In And Across TamilNadu."
-    },
+	"Header": {
+		"title": "TAKE THE NEXT STEP TOWARDS YOUR DREAM CAREERS",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+	},
+	"About": {
+		"head": "Thanks for coming this far to know us",
+		"paragraph": "We are a team of five people without them this app is a long dream. We always believed that there should be access to quality educational content and access to that content should be affordable as well. To aid this dream our teachers (Subratha, Nandhini, Tamil Selvan) came forward for this cause and helped us throughout our journey in making this CaCO2 app what you see right now. Our biggest happiness happens only when we make our students get their dreams achieved.",
+		"foot": "our dream is to make your dreams get achieved",
+		"Why": [
+			"Top Instructors With Good NEET Background",
+			"Content Rich Pre-Recorded Videos",
+			"Bilingual -Tamil + English Recorded Videos",
+			"Easy To Use Interface - Designed App",
+			"Conceptual clarity-get concepts clarified from scratch",
+			"Learn anytime ,anywhere on your comfort structured syllabus for NEET"
+		],
+		"Why2": [
+			"Daily Live Classes From NEET Qualified Students",
+			"Free Doubt Solving Portal For All Paid And Unpaid Students",
+			"Doubt clearning sessions from mentors",
+			"Free Daily MCQs Practice In Every Subject",
+			"Free Notes And PPTs Of Recorded Classes",
+			"performance tracker",
+			"monthly orientation classes - get motivated",
+			"feedback portal- To improve the learning process",
+			"Get real time Exam experiance from previous year question paper"
+		]
+	},
+	"Services": [
+		{
+			"name": "Lorem ipsum dolor",
+			"image": "Thumbnail-1.png",
+			"text": "We Are On The Mission To Educate 25000 NEET Students In And Across TamilNadu."
+		},
 
-    {
-      "name": "Lorem ipsum dolor",
-      "image": "Thumbnail-2.png",
-      "text": "Our Vision Is To Make NEET Students Dreams Come True And We Completely Believe War Against Diseases Is The Greatest War Today. Only Good Doctors Can Produce A Healthy Nation."
-    }
-  ],
-  "Pricing": [
-    {
-      "type": "free",
-      "bg": 1,
-      "mostPopular": false,
-      "title": "Class 11 NEET Complete syllabus",
-      "description": "with tamil explanation",
-      "price": "999",
-      "data": ["Physics", "Chemistry", "Biology"]
-    },
-    {
-      "type": "basic",
-      "bg": 2,
-      "mostPopular": false,
-      "title": "Class 12 NEET Complete syllabus",
-      "description": "with tamil explanation",
-      "price": "999",
-      "data": ["Physics", "Chemistry", "Biology"]
-    },
-    {
-      "type": "pro",
-      "bg": 3,
-      "mostPopular": true,
-      "title": "Class 11 + Class 12 NEET Complete syllabus – combo",
-      "description": "",
-      "price": "1999",
-      "data": ["Physics", "Chemistry", "Biology"]
-    }
-  ],
-  "Contact": {
-    "address": "",
-    "phone": "+91 9894369147",
-    "email": " officialcaco2@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/caco2-learning-never-stops-093b4225b/",
-    "twitter": "https://twitter.com/CACO2CACO2?t=_9Xurb0GR1TF2Hv5tHQPnQ&s=08",
-    "youtube": "youtube.com"
-  }
+		{
+			"name": "Lorem ipsum dolor",
+			"image": "Thumbnail-2.png",
+			"text": "Our Vision Is To Make NEET Students Dreams Come True And We Completely Believe War Against Diseases Is The Greatest War Today. Only Good Doctors Can Produce A Healthy Nation."
+		}
+	],
+	"Pricing": [
+		{
+			"type": "free",
+			"bg": 1,
+			"mostPopular": false,
+			"title": "Class 11 NEET Complete syllabus",
+			"description": "with tamil explanation",
+			"price": "999",
+			"data": ["Physics", "Chemistry", "Biology"]
+		},
+		{
+			"type": "basic",
+			"bg": 2,
+			"mostPopular": false,
+			"title": "Class 12 NEET Complete syllabus",
+			"description": "with tamil explanation",
+			"price": "999",
+			"data": ["Physics", "Chemistry", "Biology"]
+		},
+		{
+			"type": "pro",
+			"bg": 3,
+			"mostPopular": true,
+			"title": "Class 11 + Class 12 NEET Complete syllabus – combo",
+			"description": "",
+			"price": "1999",
+			"data": ["Physics", "Chemistry", "Biology"]
+		}
+	],
+	"Contact": {
+		"address": "",
+		"phone": "+91 9894369147",
+		"email": "support@caco2.in",
+		"linkedin": "https://www.linkedin.com/in/caco2-learning-never-stops-093b4225b/",
+		"twitter": "https://twitter.com/CACO2CACO2?t=_9Xurb0GR1TF2Hv5tHQPnQ&s=08",
+		"youtube": "youtube.com"
+	}
 }
