@@ -612,6 +612,12 @@ label {
 	color: #888;
 	font-size: 14px;
 }
+#footer .link-container {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+}
+
 #footer a {
 	color: #608dfd;
 }
@@ -679,6 +685,12 @@ label {
 
 	#pricing .card {
 		width: auto;
+	}
+
+	#footer .link-container {
+		font-size: small;
+		flex-direction: column;
+		gap: 0rem;
 	}
 }
 
