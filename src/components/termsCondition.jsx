@@ -16,10 +16,11 @@ function termsCondition(props) {
 						id='en'>
 						<h3>1. Introduction</h3>
 						<p>
-							Welcome to caco2 (“Company”, “we”, “our”, “us”)! These Terms of
-							Service (“Terms”, “Terms of Service”) govern your use of our
-							website located at www.caco2.in (together or individually
-							“Service”) operated by caco2.
+							Welcome to <strong>caco2</strong>(“Company”, “we”, “our”, “us”)!
+							These Terms of Service (“Terms”, “Terms of Service”) govern your
+							use of our website located at <strong>www.caco2.in</strong>
+							(together or individually “Service”) operated by{' '}
+							<strong>caco2.</strong>
 						</p>
 						<p>
 							Our Privacy Policy also governs your use of our Service and
@@ -36,9 +37,9 @@ function termsCondition(props) {
 						<p>
 							If you do not agree with (or cannot comply with) Agreements, then
 							you may not use the Service, but please let us know by emailing at
-							support@caco2.in so we can try to find a solution. These Terms
-							apply to all visitors, users and others who wish to access or use
-							Service.
+							&nbsp;<strong>support@caco2.in</strong> so we can try to find a
+							solution. These Terms apply to all visitors, users and others who
+							wish to access or use Service.
 						</p>
 					</div>
 					<div
@@ -174,9 +175,9 @@ function termsCondition(props) {
 						id='en'>
 						<h3>8. Refunds</h3>
 						<p>
-							We issue refunds for Contracts within 30 days of the original
-							purchase of the Contract. Caco2 has full authority to even cancel
-							the refund request raised by the customer.
+							We issue refunds for Contracts within <strong>30 days</strong> of
+							the original purchase of the Contract. Caco2 has full authority to
+							even cancel the refund request raised by the customer.
 						</p>
 					</div>
 					<div
@@ -492,19 +493,22 @@ function termsCondition(props) {
 							over, and assumes no responsibility for the content, privacy
 							policies, or practices of any third party web sites or services.
 							We do not warrant the offerings of any of these
-							entities/individuals or their websites. For example, the outlined
+							entities/individuals or their websites. For example, the
+							outlined&nbsp;
 							<a href='https://policymaker.io/terms-and-conditions/'>
-								Terms of Use
+								<strong>Terms of Use</strong>
 							</a>
-							have been created using{' '}
-							<a href='https://policymaker.io/'>PolicyMaker.io</a>
-							PolicyMaker.io, a free web application for generating high-quality
-							legal documents. PolicyMaker’s{' '}
+							&nbsp; have been created using{' '}
+							<a href='https://policymaker.io/'>
+								<strong>PolicyMaker.io</strong>
+							</a>
+							, a free web application for generating high-quality legal
+							documents. PolicyMaker’s{' '}
 							<a href='https://policymaker.io/terms-and-conditions/'>
-								Terms and Conditions generator
+								<strong>Terms and Conditions generator</strong>
 							</a>
-							Terms and Conditions generator is an easy-to-use free tool for
-							creating an excellent standard Terms of Service template for a
+							&nbsp; Terms and Conditions generator is an easy-to-use free tool
+							for creating an excellent standard Terms of Service template for a
 							website, blog, e-commerce store or app. <br />
 							YOU ACKNOWLEDGE AND AGREE THAT COMPANY SHALL NOT BE RESPONSIBLE OR
 							LIABLE, DIRECTLY OR INDIRECTLY, FOR ANY DAMAGE OR LOSS CAUSED OR
