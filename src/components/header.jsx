@@ -13,9 +13,8 @@ export const Header = (props) => {
 								<a
 									target='_blank'
 									rel='noopener noreferrer'
-									href='/'
-									className='btn btn-custom btn-lg page-scroll'
-									onClick={(e) => e.preventDefault()}>
+									href='https://play.google.com/store/apps/details?id=com.caco2'
+									className='btn btn-custom btn-lg page-scroll'>
 									<img
 										src='img/playstore.png'
 										style={{
@@ -23,7 +22,7 @@ export const Header = (props) => {
 											height: '2rem',
 											marginRight: '1rem'
 										}}
-										alt=''
+										alt='caco2'
 									/>
 									Download
 								</a>{' '}
