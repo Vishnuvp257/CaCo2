@@ -10,6 +10,8 @@ import { Contact } from './components/contact';
 import Privacy from './components/privacy';
 import TermsCondition from './components/termsCondition';
 import RefundPolicy from './components/refundPolicy';
+import ResetPassword from './components/Resetpassword';
+import PasswordChangedSuccess from './components/PasswordChangeSuccess';
 
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
@@ -55,6 +57,15 @@ const App = () => {
 					path='/refund-policy'
 					element={<RefundPolicy />}
 				/>
+				<Route
+					path='/reset-password'
+					element={<ResetPassword />}
+				/>
+
+				<Route
+                    path='/pwd-changed-success'
+                    element={<PasswordChangedSuccess />}
+                />
 
 				<Route
 					path='*'
