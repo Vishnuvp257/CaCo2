@@ -2,14 +2,6 @@ import React ,{ useEffect } from 'react';
 
 const PasswordChangedSuccess = () => {
     useEffect(() => {
-        // Check if the current environment is a browser
-        const isBrowser = typeof window !== 'undefined';
-    
-        if (isBrowser) {
-          // Redirect to the home page if it's a browser
-          window.location.href = "/";
-        } else {
-          // If not in a browser (e.g., in the app), perform the app-specific redirection
           const appUrl = "caco2://login";
           window.location.href = appUrl;
     
@@ -19,7 +11,6 @@ const PasswordChangedSuccess = () => {
               window.location.href = "https://play.google.com/store/apps/details?id=com.caco2&pcampaignid=web_share";
             }
           }, 2500);
-        }
       }, []);
     
       return (
