@@ -6,7 +6,7 @@ function RefundPolicy(props) {
 		<div class='page'>
 			<div class='header'>
 				<div class='container'>
-					<p class='title'>Refund policy</p>
+					<p class='title'>Refund & Return policy</p>
 				</div>
 			</div>
 			<div class='translations-content-container'>
@@ -20,7 +20,7 @@ function RefundPolicy(props) {
 							there may be instances where a customer may be unsatisfied with
 							their purchase and request a refund.
 						</p>
-						<h4>Our refund policy is as follows:</h4>
+						<h4>Our refund & return policy is as follows:</h4>
 						<ul>
 							<li>
 								<p>
