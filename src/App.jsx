@@ -10,6 +10,7 @@ import { Contact } from './components/contact';
 import Privacy from './components/privacy';
 import TermsCondition from './components/termsCondition';
 import RefundPolicy from './components/refundPolicy';
+import ShippingPolicy from './components/ShippingPolicy';
 import ResetPassword from './components/Resetpassword';
 import PasswordChangedSuccess from './components/PasswordChangeSuccess';
 
@@ -56,6 +57,10 @@ const App = () => {
 				<Route
 					path='/refund-policy'
 					element={<RefundPolicy />}
+				/>
+				<Route
+					path='/shipping-policy'
+					element={<ShippingPolicy/>}
 				/>
 				<Route
 					path='/reset-password'
